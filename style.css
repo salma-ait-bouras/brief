@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #1F2937;
-  background-color: #F7F8FA;
+  background-color: #e5e1e1;
 }
 
 h1, h2, h3, h4 {
@@ -555,9 +555,22 @@ button:focus-visible {
    padding: 5%;
    font-size: 20px;
    font-weight: 500;
-   background-color: #f5f3f26c;
+   background-color: #FFFFFF;
+   margin-top: 15px; 
+   margin-bottom: 30px;  
+
 }
-input[type=text], textarea {
+#hello{
+  display: flex;
+  justify-content:space-evenly;
+  margin-bottom: 30px;  
+
+}
+#hello > div{
+  display: flex;
+  gap: 8px;
+}
+input[type=text],input[type=radio],input[type=email],input[type=date],input[type=tel],textarea{
   width: 70%; 
   padding: 12px; 
   border: 2px solid #FF6B2C; 
@@ -567,6 +580,7 @@ input[type=text], textarea {
   
 }
 .btn{
+  color: #FFFFFF;
   background-color: #FF6B2C;
   width: 20%; 
   padding: 14px; 
@@ -574,4 +588,5 @@ input[type=text], textarea {
   border-radius: 20px; 
   margin-top: 6px; 
   margin-bottom: 16px; 
+
 }
