@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #1F2937;
-  background-color: #e5e1e1;
+  background-color: #F7F8FA;
 }
 
 h1, h2, h3, h4 {
@@ -53,7 +53,6 @@ button:focus-visible {
 }
 
 .section-blanche {
-  background-color: #FFFFFF;
   border-top: 1px solid #E5E7EB;
   border-bottom: 1px solid #E5E7EB;
 }
@@ -165,29 +164,29 @@ button:focus-visible {
 }
 
 .en-tete-contenu {
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo {
+/* .logo {
   display: flex;
   align-items: center;
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #0F1B2D;
-}
+} */
 
-.logo::after {
+/* .logo::after {
   content: "";
   width: 10px;
   height: 10px;
   margin-left: 8px;
   background-color: #FF6B2C;
-  border-radius: 50%;
-}
+  border-radius: 50%; */
+/* } */
 
 .menu {
   display: flex;
@@ -551,14 +550,15 @@ button:focus-visible {
 .sl{
    border: solid;
    border-radius: 20px; 
-   margin: 10%;
    padding: 5%;
    font-size: 20px;
    font-weight: 500;
    background-color: #FFFFFF;
    margin-top: 15px; 
    margin-bottom: 30px;  
-
+   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+   width: 1000px ;
+   margin: 5% auto;
 }
 #hello{
   display: flex;
@@ -589,4 +589,8 @@ input[type=text],input[type=radio],input[type=email],input[type=date],input[type
   margin-top: 6px; 
   margin-bottom: 16px; 
 
+}
+.logo img {
+  height: 100px;
+  object-fit: cover;
 }
